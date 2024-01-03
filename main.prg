@@ -5,7 +5,7 @@ Global Integer x, y, z, u
 
 Function main
 	String indata$(0), receive$
-
+	
 	Motor On
 	Power High
 	Speed 20
@@ -13,6 +13,8 @@ Function main
 	Accel 20, 20
 	SpeedS 20
 	AccelS 20, 20
+	
+	Go Here :X(0) :Y(500) :Z(200) :U(0) :V(0)
 
  ' use your robot actual IP address or 127.0.0.1 for simulator at local host
   SetNet #201, "127.0.0.1", 2001, CRLF
